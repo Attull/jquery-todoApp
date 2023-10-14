@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:30%;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    margin: auto 0px;
+}
+.mark{
+    text-decoration: line-through;
+}
+.fa-trash{
+    color:red;
+    margin-left: 50px;
+}
+
+.fa-pencil{
+    color:green;
+    margin-left: 20px;
+}
